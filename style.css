@@ -10,6 +10,8 @@
 }
 
 body {
+  margin: 0;
+  height: 100%;
   background-color: var(--violet);
   background-image: url(images/bg-desktop.svg);
   background-repeat: no-repeat;
@@ -18,16 +20,12 @@ body {
   font-size: 16px;
 }
 
-.logo {
-  transform: scale(0.7);
-  position: relative;
-  left: -120px;
-  top: 50px;
-  margin-top: 20px;
+.logo img {
+  padding: 20px;
 }
 
 .grid-container {
-  margin: 40px;
+  margin: 20px 0px;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
 }
@@ -40,7 +38,7 @@ body {
 .illustration img {
   max-width: auto;
   margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 35px;
 }
 
 .item2 {
@@ -101,23 +99,15 @@ i {
 @media (max-width: 768px) {
   body {
     background-image: url(images/bg-mobile.svg);
-    /* overflow: hidden; */
-  }
-
-  .grid-container {
-    width: 80%;
-    /* margin: auto; */
   }
 
   .logo img {
-    position: relative;
-    left: 150px;
-    bottom: 85px;
+    max-width: 50%;
   }
-
   .grid-container {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 375px;
+    justify-content: center;
   }
 
   .illustration {
@@ -126,10 +116,9 @@ i {
   }
 
   .illustration img {
-    max-width: 100%;
-    transform: scale(1.13);
-    margin-top: -10px;
-    margin-left: 5px;
+    max-width: 89%;
+    margin-top: 3px;
+    margin-left: 18px;
   }
 
   .item2 {
