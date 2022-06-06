@@ -69,9 +69,16 @@ p {
 button {
   padding: 15px 50px;
   border-radius: 50px;
+  border-width: 0px;
   background-color: white;
   font-family: "Poppins", sans-serif;
   color: var(--violet);
+}
+
+button:hover {
+  background-color: var(--soft-magenta);
+  color: white;
+  cursor: pointer;
 }
 
 .icons {
@@ -87,9 +94,18 @@ i {
   padding: 10px;
 }
 
+i:hover {
+  border: 1px solid var(--soft-magenta);
+  cursor: pointer;
+}
+
 .fa-brands {
   color: white;
   margin-right: 20px;
+}
+
+.fa-brands:hover {
+  color: var(--soft-magenta);
 }
 
 .attribution {
