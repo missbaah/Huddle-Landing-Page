@@ -43,6 +43,7 @@ Users should be able to:
 
 ### What I learned
 
+I learnt how to work with icons and how to style them although my facebook icon is wonky
 This challenge helped me recap some of my major learning and reinforced them. I'm excited that I'm getting familiar with css properties and I can tell what to do when I see the design
 
 ### Continued development
